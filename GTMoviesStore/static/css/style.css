@@ -1,5 +1,5 @@
 .bg-index{
-  background: url("GTMoviesStore/static/img/elegant_background.jpg") no-repeat fixed;
+  background-image: url("GTMoviesStore/static/img/background.jpg");
   background-size: 100% auto;
 }
 
