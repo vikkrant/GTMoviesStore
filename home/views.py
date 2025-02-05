@@ -12,5 +12,9 @@ def about(request):
 
 def register(request):
     template_data = {}
+<<<<<<< HEAD
     template_data['title'] = 'Register/SSOO'
+=======
+    template_data['title'] = 'Register'
+>>>>>>> 98378ca (Committing)
     return render(request, 'home/about.html', {'template_data': template_data})
