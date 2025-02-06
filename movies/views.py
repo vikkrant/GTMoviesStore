@@ -1,4 +1,4 @@
-from django.shortcuts import render
+
 from django.shortcuts import render
 movies = [
     {
@@ -24,8 +24,21 @@ movies = [
     },
 ]
 def index(request):
+    search_term = request.GET.get('search')
     template_data = {}
+    if search_term:
+        if search_term.lower() == "grown ups" :
+            template_data['movies'] = [movies[0]]
+        elif search_term.lower() == "avengers: endgame" or search_term.lower() == "avengers endgame":
+            template_data['movies'] = [movies[1]]
+        elif search_term.lower() == "the dark knight rises":
+            template_data['movies'] = [movies[2]]
+        elif search_term.lower() == "tenet":
+            template_data['movies'] = [movies[3]]
+        elif search_term.lower() == "hit man":
+            template_data['movies'] = [movies[4]]
+    else:
+        template_data['movies'] = movies
     template_data['title'] = 'Movies'
-    template_data['movies'] = movies
     return render(request, 'movies/index.html',
                   {'template_data': template_data})
