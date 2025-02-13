@@ -1,7 +1,7 @@
 .bg-index {
-  background: url("/static/img/gt-background.jpg") no-repeat fixed;
+  background: url("/static/img/monkey_about_logo.jpg") no-repeat fixed;
   background-size: cover; /* Ensures the image covers the whole area */
-  background-position: center; /* Centers the background */
+  background-position: left; /* Centers the background */
   background-attachment: fixed; /* Makes background stay in place when scrolling */
 }
 
