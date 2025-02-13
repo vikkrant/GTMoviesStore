@@ -1,14 +1,22 @@
 .bg-index {
   background: url("/static/img/gt-background.jpg") no-repeat fixed;
-  background-size: 100% auto;
+  background-size: cover; /* Ensures the image covers the whole area */
+  background-position: center; /* Centers the background */
+  background-attachment: fixed; /* Makes background stay in place when scrolling */
 }
 
 .navbar a.nav-link {
-  color: #FFFEF6 !important;
+  color: #fffdfd !important;
 }
 
 .bg-dark {
   background-color: #2E2E2E !important;
+}
+
+.masthead {
+  min-height: 600px; /* Ensures the section is tall enough */
+  height: auto; /* Allows it to grow if needed */
+  padding: 80px 0; /* Adds spacing inside */
 }
 
 .ms-footer {
