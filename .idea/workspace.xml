@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93e51101-bbc0-4279-a98b-ecd10c236daa" name="Changes" comment="Vikrant Movies Page Commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vikkrant&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vikkrant/GTMoviesStore.git&quot;,
+    &quot;accountId&quot;: &quot;824698d7-76c8-4a33-aab2-5654e5011400&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;vikkrant&quot;,
+    &quot;repository&quot;: &quot;GTMoviesStore&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2sX9SVw8h3klmOs8NeOg3auOE5i" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;vikrant2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/GTMoviesStore&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GTMoviesStore\GTMoviesStore\static\img" />
+      <recent name="C:\GTMoviesStore\movies\templates\movies" />
+      <recent name="C:\GTMoviesStore\home" />
+      <recent name="C:\GTMoviesStore\static\home" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GTMoviesStore" type="Python.DjangoServer" factoryName="Django server">
+      <module name="GTMoviesStore" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.220" />
+        <option value="bundled-python-sdk-0fc6c617c4bd-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.220" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93e51101-bbc0-4279-a98b-ecd10c236daa" name="Changes" comment="" />
+      <created>1738591054303</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738591054303</updated>
+      <workItem from="1738591055798" duration="8484000" />
+      <workItem from="1738636617270" duration="3594000" />
+      <workItem from="1738700825878" duration="465000" />
+      <workItem from="1738725275228" duration="1123000" />
+      <workItem from="1738726432482" duration="2972000" />
+      <workItem from="1738788452457" duration="501000" />
+      <workItem from="1738790682924" duration="268000" />
+      <workItem from="1738809718696" duration="279000" />
+      <workItem from="1738810026170" duration="6259000" />
+      <workItem from="1738869640110" duration="3968000" />
+      <workItem from="1738873876055" duration="223000" />
+      <workItem from="1738874123380" duration="472000" />
+      <workItem from="1738874951640" duration="3204000" />
+      <workItem from="1739478932818" duration="358000" />
+    </task>
+    <task id="LOCAL-00001" summary="Vikrant Test Commit">
+      <option name="closed" value="true" />
+      <created>1738595956392</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738595956392</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Vikrant Commit #1">
+      <option name="closed" value="true" />
+      <created>1738597838304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738597838304</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New Files Commit">
+      <option name="closed" value="true" />
+      <created>1738598162525</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738598162525</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New Files Commit">
+      <option name="closed" value="true" />
+      <created>1738603799267</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738603799267</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Testing GIT COMMIT">
+      <option name="closed" value="true" />
+      <created>1738636966232</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738636966233</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Testing GIT COMMIT 2">
+      <option name="closed" value="true" />
+      <created>1738637057677</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738637057677</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Vikrant Movies Page Commit">
+      <option name="closed" value="true" />
+      <created>1738788517901</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738788517911</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Vikrant Movies Page Commit">
+      <option name="closed" value="true" />
+      <created>1738812035010</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738812035010</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Vikrant Movies Page Commit">
+      <option name="closed" value="true" />
+      <created>1738816059394</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738816059394</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Vikrant Movies Page Commit">
+      <option name="closed" value="true" />
+      <created>1738872628088</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738872628088</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Vikrant Movies Page Commit">
+      <option name="closed" value="true" />
+      <created>1738872783563</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738872783563</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.name" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Vikrant Test Commit" />
+    <MESSAGE value="Vikrant Commit #1" />
+    <MESSAGE value="New Files Commit" />
+    <MESSAGE value="Testing GIT COMMIT" />
+    <MESSAGE value="Testing GIT COMMIT 2" />
+    <MESSAGE value="Vikrant Movies Page Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vikrant Movies Page Commit" />
+  </component>
+</project>
