@@ -6,6 +6,10 @@ from django.urls import reverse
 from django.contrib.auth import get_user_model
 from django.contrib.auth.hashers import make_password
 from .forms import CustomUserCreationForm, CustomErrorList, UsernamePasswordResetForm
+from django.contrib.auth.hashers import check_password
+from django.contrib.auth.password_validation import validate_password
+from django.core.exceptions import ValidationError
+from .forms import CustomPasswordResetForm
 
 @login_required
 def logout(request):
@@ -67,23 +71,31 @@ def username_password_reset_request(request):
 
     return render(request, "accounts/password_reset.html", {"form": form})
 
-
 def username_password_reset_confirm(request, user_id):
     User = get_user_model()
 
     try:
-        user = User.objects.get(pk=user_id)  # Ensure user exists
+        user = User.objects.get(pk=user_id)
     except User.DoesNotExist:
-        return redirect("password_reset")  # Redirect back if user ID is invalid
+        return redirect("password_reset")
 
     if request.method == "POST":
-        new_password = request.POST["new_password"]
-        confirm_password = request.POST["confirm_password"]
-        if new_password == confirm_password:
-            user.password = make_password(new_password)  # Hash and save new password
-            user.save()
-            return redirect("accounts.login")  # Redirect back to login page
-        else:
-            return render(request, "accounts/password_reset_confirm.html", {"error": "Passwords do not match."})
+        form = CustomPasswordResetForm(request.POST, user=user)
+        if form.is_valid():
+            new_password = form.cleaned_data["new_password"]
 
-    return render(request, "accounts/password_reset_confirm.html", {"user": user})
+            if check_password(new_password, user.password):
+                form.add_error("new_password", "New password cannot be the same as the old password.")
+            else:
+                try:
+                    validate_password(new_password, user)
+                    user.password = make_password(new_password)
+                    user.save()
+                    return redirect("accounts.login")
+                except ValidationError as e:
+                    form.add_error("new_password", e.messages)
+
+    else:
+        form = CustomPasswordResetForm(user=user)
+
+    return render(request, "accounts/password_reset_confirm.html", {"form": form})
