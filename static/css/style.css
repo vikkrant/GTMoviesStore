@@ -1,0 +1,66 @@
+.bg-index {
+  background: url("/static/img/gt-background.jpg") no-repeat fixed;
+  background-size: cover; /* Ensures the image covers the whole area */
+  background-position: center; /* Centers the background */
+  background-attachment: fixed; /* Makes background stay in place when scrolling */
+}
+
+.navbar a.nav-link {
+  color: #fffdfd !important;
+}
+
+.bg-dark {
+  background-color: #2E2E2E !important;
+}
+
+.masthead {
+  min-height: 600px; /* Ensures the section is tall enough */
+  height: auto; /* Allows it to grow if needed */
+  padding: 80px 0; /* Adds spacing inside */
+}
+
+.ms-footer {
+  background-color: #202020;
+}
+
+.ms-footer p {
+  color: #7F7F7F;
+  font-size: 13px;
+}
+
+.ms-footer a:hover {
+  color: #6ab43e;
+  text-decoration: none;
+}
+
+.ms-footer-bottom span{
+  font-size: 13px;
+  line-height: 38px;
+}
+
+.ms-footer-bottom a {
+  color: #6ab43e;
+  text-decoration: none;
+}
+
+.ms-footer-bottom a:hover {
+  color: #fff;
+}
+.img-card-200 {
+  width: fit-content;
+  max-height: 200px;
+  object-fit: contain;
+}
+.img-card-400 {
+  width: fit-content;
+  max-height: 400px;
+  object-fit: contain;
+}
+.max-width-100 { /* AI GENERATED CODE */
+  max-width: 80%; /* Ensures image does not exceed container width */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes extra space below the image */
+}
+.col-md-6.text-center {
+  padding-left: 200px; /* Adjust this value to your preference */
+}
