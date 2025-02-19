@@ -49,10 +49,12 @@
 .img-card-200 {
   width: fit-content;
   max-height: 200px;
+  object-fit: cover;
 }
 .img-card-400 {
   width: fit-content;
   max-height: 400px;
+  object-fit: cover;
 }
 .max-width-100 { /* AI GENERATED CODE */
   max-width: 80%; /* Ensures image does not exceed container width */
