@@ -49,15 +49,26 @@
 .img-card-200 {
   width: fit-content;
   max-height: 200px;
+  height: auto;/* this part is AI generated, to prevent distortion*/
+  object-fit: contain;
 }
 .img-card-400 {
   width: fit-content;
   max-height: 400px;
+  height: auto;
+  object-fit: contain;
 }
 .max-width-100 { /* AI GENERATED CODE */
-  max-width: 80%; /* Ensures image does not exceed container width */
+  width: 100%;
+  max-width: 100%; /* Ensures image does not exceed container width */
   height: auto; /* Maintains aspect ratio */
   display: block; /* Removes extra space below the image */
+}
+@media (max-width: 768px) { /* AI generated code to prevent distortion on mobile devices*/
+  .img-card-200, .img-card-400 {
+    max-height: 150px;  /* Adjust the height for smaller screens */
+    width: fit-content; /* Allow image to scale down */
+  }
 }
 .col-md-6.text-center {
   padding-left: 200px; /* Adjust this value to your preference */
